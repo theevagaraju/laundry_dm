@@ -44,6 +44,9 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn import tree
 
 st.title("Dashboard: Laundary Dataset")
+st.markdown("""
+This app is developed by Syed Ishfar Shafiq, Theevagaraju, and Rishidharan to perform an analysis on Laundry Dataset
+""")
 
 @st.cache
 def load_data(classifier_name):
